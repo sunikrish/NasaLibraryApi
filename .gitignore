@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/NasaApiApp
+/NasaApi.Application/bin/Debug/net5.0
+/NasaApi.Application/obj
+/NasaApiApp/bin/Debug/net5.0
+/NasaApiApp/obj
