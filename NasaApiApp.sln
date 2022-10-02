@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NasaApiApp", "NasaApiApp\NasaApiApp.csproj", "{6089F295-B6B2-4239-B436-D0F67FA218DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NasaApiApp", "NasaApiApp\NasaApiApp.csproj", "{6089F295-B6B2-4239-B436-D0F67FA218DD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NasaApi.Application", "NasaApi.Application\NasaApi.Application.csproj", "{77D45F10-EDE0-4C70-B8D6-5960B6615957}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NasaApiApp.UnitTest", "NasaApiApp.UnitTest\NasaApiApp.UnitTest.csproj", "{DE7FADF1-383D-4C66-8BEF-886AB2D333C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{77D45F10-EDE0-4C70-B8D6-5960B6615957}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77D45F10-EDE0-4C70-B8D6-5960B6615957}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77D45F10-EDE0-4C70-B8D6-5960B6615957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE7FADF1-383D-4C66-8BEF-886AB2D333C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE7FADF1-383D-4C66-8BEF-886AB2D333C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE7FADF1-383D-4C66-8BEF-886AB2D333C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE7FADF1-383D-4C66-8BEF-886AB2D333C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

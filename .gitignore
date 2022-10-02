@@ -7,3 +7,5 @@
 /NasaApi.Application/obj
 /NasaApiApp/bin/Debug/net5.0
 /NasaApiApp/obj
+/NasaApiApp.UnitTest/bin/Debug/net5.0
+/NasaApiApp.UnitTest/obj
