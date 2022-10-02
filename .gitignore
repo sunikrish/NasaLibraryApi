@@ -9,3 +9,5 @@
 /NasaApiApp/obj
 /NasaApiApp.UnitTest/bin/Debug/net5.0
 /NasaApiApp.UnitTest/obj
+/NasaApiApp.ApiTest/bin/Debug/net5.0
+/NasaApiApp.ApiTest/obj
