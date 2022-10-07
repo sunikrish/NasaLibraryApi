@@ -20,12 +20,7 @@ namespace NasaApiApp.Controllers
         {
             _mediator = mediator;
         }
-        // GET: api/<NasaLibraryController>
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+       
 
         [HttpGet]
         [ResponseCache(Duration = 3600, Location = ResponseCacheLocation.Any, VaryByQueryKeys=new string[] { "FreeText", "StartYear", "EndYear", "MediaType" })]
@@ -33,8 +28,6 @@ namespace NasaApiApp.Controllers
         public async Task<NasaResponse> GetData([FromQuery]GetNasaSearchQuery test)
         {
             return await _mediator.Send(test);
-            //return await Task.FromResult(new NasaResponse());
-           // return new string[] { "value1", "value2" };
         }
 
 
