@@ -28,6 +28,7 @@ namespace NasaApiApp.Controllers
         }
 
         [HttpGet]
+        [ResponseCache(Duration = 3600, Location = ResponseCacheLocation.Any, VaryByQueryKeys=new string[] { "FreeText", "StartYear", "EndYear", "MediaType" })]
         [Route("data")]
         public async Task<NasaResponse> GetData([FromQuery]GetNasaSearchQuery test)
         {

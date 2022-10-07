@@ -39,6 +39,7 @@ namespace NasaApiApp
                                             .AllowAnyMethod();
                     });
             });
+            services.AddResponseCaching();
             services.AddControllers();
             services.AddHttpClient();
             services.AddMediatR(Assembly.GetExecutingAssembly());
@@ -60,7 +61,7 @@ namespace NasaApiApp
             }
 
             app.UseHttpsRedirection();
-
+            app.UseResponseCaching();
             app.UseRouting();
             app.UseCors();
             app.UseAuthorization();
